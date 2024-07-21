@@ -1,62 +1,256 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T11:13:35.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="lvqwmMvFQszJvwYU-wc9" border="50" scale="3" compressed="false" locked="false" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-21T07:17:01.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="AM9j7S1IwPUmmnoRSpme" border="50" scale="3" compressed="false" locked="false" version="24.7.1" type="github">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="1101" dy="824" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel dx="2713" dy="1373" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
-        <mxCell id="dohqmcMWc8sms09kIWmR-1" value="Mindmap" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
-          <mxGeometry x="54" y="64" width="924" height="559" as="geometry">
+        <mxCell id="dohqmcMWc8sms09kIWmR-1" value="ORM" style="swimlane;startSize=20;horizontal=1;containerType=tree;" parent="1" vertex="1">
+          <mxGeometry x="152" y="344" width="2095" height="1303" as="geometry">
             <mxRectangle x="241" y="273" width="84" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-6" target="dohqmcMWc8sms09kIWmR-7">
+        <mxCell id="dohqmcMWc8sms09kIWmR-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-6" target="dohqmcMWc8sms09kIWmR-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-6" target="dohqmcMWc8sms09kIWmR-9">
+        <mxCell id="dohqmcMWc8sms09kIWmR-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-6" target="dohqmcMWc8sms09kIWmR-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-6" value="DynamoDB" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
-          <mxGeometry x="372" y="37" width="100" height="40" as="geometry" />
+        <mxCell id="dohqmcMWc8sms09kIWmR-6" value="DynamoDB" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="dohqmcMWc8sms09kIWmR-1" vertex="1">
+          <mxGeometry x="1101" y="70" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-7" value="dynamoose" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
-          <mxGeometry x="739" y="115" width="101" height="30" as="geometry" />
+        <mxCell id="dohqmcMWc8sms09kIWmR-7" value="dynamoose" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="dohqmcMWc8sms09kIWmR-1" vertex="1">
+          <mxGeometry x="1874" y="147" width="101" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-9" value="@aws-sdk/client-dynamodb" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
-          <mxGeometry x="16" y="85" width="208" height="30" as="geometry" />
+        <mxCell id="dohqmcMWc8sms09kIWmR-9" value="@aws-sdk/client-dynamodb" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="dohqmcMWc8sms09kIWmR-1" vertex="1">
+          <mxGeometry x="832" y="300" width="208" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-16" value="nestjs-dynamoose" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
-          <mxGeometry x="472" y="186" width="136" height="30" as="geometry" />
+        <mxCell id="dohqmcMWc8sms09kIWmR-16" value="nestjs-dynamoose" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="dohqmcMWc8sms09kIWmR-1" vertex="1">
+          <mxGeometry x="1383" y="214" width="136" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-17" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-6" target="dohqmcMWc8sms09kIWmR-16">
+        <mxCell id="dohqmcMWc8sms09kIWmR-17" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-6" target="dohqmcMWc8sms09kIWmR-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="372" y="57" as="sourcePoint" />
-            <mxPoint x="110" y="127" as="targetPoint" />
+            <mxPoint x="1101" y="90" as="sourcePoint" />
+            <mxPoint x="839" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-20" value="&lt;a href=&quot;https://socket.dev/npm/package/@aws-sdk/client-dynamodb&quot;&gt;Socket.dev&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="dohqmcMWc8sms09kIWmR-1">
-          <mxGeometry x="107" y="173" width="94" height="26" as="geometry" />
+        <mxCell id="dohqmcMWc8sms09kIWmR-20" value="&lt;a href=&quot;https://socket.dev/npm/package/@aws-sdk/client-dynamodb&quot;&gt;Socket.dev&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="dohqmcMWc8sms09kIWmR-1" vertex="1" collapsed="1">
+          <mxGeometry x="1008" y="388" width="94" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" target="dohqmcMWc8sms09kIWmR-20" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-9">
+        <mxCell id="dohqmcMWc8sms09kIWmR-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-9" target="dohqmcMWc8sms09kIWmR-20" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="277" y="266" as="sourcePoint" />
+            <mxPoint x="1093" y="481" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-22" value="&lt;a href=&quot;https://socket.dev/npm/package/nestjs-dynamoose&quot;&gt;Socket.dev&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="dohqmcMWc8sms09kIWmR-1">
-          <mxGeometry x="528" y="259" width="94" height="26" as="geometry" />
+        <mxCell id="dohqmcMWc8sms09kIWmR-22" value="&lt;a href=&quot;https://socket.dev/npm/package/nestjs-dynamoose&quot;&gt;Socket.dev&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="dohqmcMWc8sms09kIWmR-1" vertex="1" collapsed="1">
+          <mxGeometry x="1455" y="325" width="94" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-23" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-16" target="dohqmcMWc8sms09kIWmR-22">
+        <mxCell id="dohqmcMWc8sms09kIWmR-23" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-16" target="dohqmcMWc8sms09kIWmR-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="68" y="115" as="sourcePoint" />
-            <mxPoint x="107" y="199" as="targetPoint" />
+            <mxPoint x="797" y="148" as="sourcePoint" />
+            <mxPoint x="836" y="232" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-24" value="&lt;a href=&quot;https://socket.dev/npm/package/dynamoose&quot;&gt;Socket.dev&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="dohqmcMWc8sms09kIWmR-1">
-          <mxGeometry x="804" y="184" width="94" height="26" as="geometry" />
+        <mxCell id="dohqmcMWc8sms09kIWmR-24" value="&lt;a href=&quot;https://www.npmjs.com/package/dynamoose&quot;&gt;npmJS.com&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="dohqmcMWc8sms09kIWmR-1" vertex="1" collapsed="1">
+          <mxGeometry x="1837" y="204" width="98" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="dohqmcMWc8sms09kIWmR-25" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-7" target="dohqmcMWc8sms09kIWmR-24">
+        <mxCell id="dohqmcMWc8sms09kIWmR-25" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-7" target="dohqmcMWc8sms09kIWmR-24" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="506" y="216" as="sourcePoint" />
-            <mxPoint x="511" y="288" as="targetPoint" />
+            <mxPoint x="1235" y="249" as="sourcePoint" />
+            <mxPoint x="1240" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-7" value="Built on top of &lt;code class=&quot;&quot;&gt;@aws-sdk/client-dynamodb&lt;/code&gt; specifically designed for use with NestJS" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="1388" y="377" width="192" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-8" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" target="4PkbjZWsWmm0DBfJ9wQo-7" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="793" y="309" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-9" value="official JavaScript SDK provided by Amazon Web Services (AWS) for interacting with DynamoDB" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="966" y="431" width="178" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-10" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-9" target="4PkbjZWsWmm0DBfJ9wQo-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1235" y="249" as="sourcePoint" />
+            <mxPoint x="1382" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-11" value="JavaScript library that also sits on top of &lt;code class=&quot;&quot;&gt;@aws-sdk/client-dynamodb,&amp;nbsp;&lt;/code&gt;&lt;div&gt;&lt;code class=&quot;&quot;&gt;can be used in any JavaScript project&lt;div class=&quot;container&quot;&gt;&lt;/div&gt;&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="1805" y="303" width="248" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-12" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-7" target="4PkbjZWsWmm0DBfJ9wQo-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1235" y="249" as="sourcePoint" />
+            <mxPoint x="1382" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-13" value="&lt;a href=&quot;https://www.npmjs.com/package/@aws-sdk/client-dynamodb&quot;&gt;npmJS.com&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="1015" y="351" width="98" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-14" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-9" target="4PkbjZWsWmm0DBfJ9wQo-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="884" y="330" as="sourcePoint" />
+            <mxPoint x="923" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-17" value="&lt;a href=&quot;https://www.npmjs.com/package/nestjs-dynamoose&quot;&gt;npmJS.com&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="1455" y="287" width="98" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-18" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-16" target="4PkbjZWsWmm0DBfJ9wQo-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1235" y="249" as="sourcePoint" />
+            <mxPoint x="1257" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-21" value="&lt;a href=&quot;https://socket.dev/npm/package/dynamoose&quot;&gt;Socket.dev&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="1874" y="240" width="94" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-7" target="4PkbjZWsWmm0DBfJ9wQo-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1493" y="178" as="sourcePoint" />
+            <mxPoint x="1533" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-24" value="&lt;a href=&quot;https://npmtrends.com/@aws-sdk/client-dynamodb-vs-aws-sdk-vs-dynamoose-vs-nest-aws-sdk-vs-nestjs-dynamoose&quot;&gt;npmTrends.com&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="1118" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-25" target="dohqmcMWc8sms09kIWmR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-25" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Pros&lt;/h1&gt;&lt;p&gt;Well supported and maintained&lt;/p&gt;&lt;p&gt;More than 2 million weekly downloads&lt;/p&gt;&lt;li data-sourcepos=&quot;7:1-7:104&quot;&gt;&lt;strong&gt;Fine-grained control:&lt;/strong&gt; You have complete control over the data you send and receive from DynamoDB.&lt;/li&gt;&lt;li data-sourcepos=&quot;8:1-8:81&quot;&gt;&lt;strong&gt;Flexibility:&lt;/strong&gt; Works with any JavaScript project, not limited by a framework.&lt;/li&gt;&lt;li data-sourcepos=&quot;9:1-10:0&quot;&gt;&lt;strong&gt;Official AWS support:&lt;/strong&gt; Benefits from ongoing development and support by AWS.&lt;/li&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="929" y="536" width="212" height="239" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-26" target="4PkbjZWsWmm0DBfJ9wQo-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Cons&lt;/h1&gt;&lt;p&gt;Time consuming&lt;/p&gt;&lt;li data-sourcepos=&quot;13:1-13:90&quot;&gt;&lt;strong&gt;Steeper learning curve:&lt;/strong&gt; Requires a deeper understanding of DynamoDB&#39;s low-level API.&lt;/li&gt;&lt;li data-sourcepos=&quot;14:1-14:93&quot;&gt;&lt;strong&gt;More code required:&lt;/strong&gt; Can be more verbose to write compared to higher-level abstractions.&lt;/li&gt;&lt;li data-sourcepos=&quot;15:1-17:0&quot;&gt;&lt;strong&gt;Missing features:&lt;/strong&gt; Doesn&#39;t offer schema definitions or object-oriented access by default.&lt;/li&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="849" y="824" width="212" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-27" target="4PkbjZWsWmm0DBfJ9wQo-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Cons&lt;/h1&gt;&lt;p&gt;Least supported and maintained&lt;/p&gt;&lt;p&gt;15k weekly downloads&lt;/p&gt;&lt;li data-sourcepos=&quot;29:1-29:85&quot;&gt;&lt;strong&gt;Potential overhead:&lt;/strong&gt; Might introduce some overhead compared to the official SDK.&lt;/li&gt;&lt;li data-sourcepos=&quot;30:1-32:0&quot;&gt;&lt;strong&gt;Limited community:&lt;/strong&gt; Smaller community compared to the official AWS SDK.&lt;/li&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="1410" y="738" width="212" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-28" target="dohqmcMWc8sms09kIWmR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Pros&lt;/h1&gt;&lt;li data-sourcepos=&quot;22:1-22:90&quot;&gt;&lt;strong&gt;Simplified development:&lt;/strong&gt; Easier interaction with DynamoDB using Mongoose-like syntax.&lt;/li&gt;&lt;li data-sourcepos=&quot;23:1-23:97&quot;&gt;&lt;strong&gt;Schema definitions:&lt;/strong&gt; Defines your data structure for better maintainability and type safety.&lt;/li&gt;&lt;li data-sourcepos=&quot;24:1-25:0&quot;&gt;&lt;strong&gt;NestJS integration:&lt;/strong&gt; Seamlessly integrates with NestJS features like dependency injection.&lt;/li&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="1354" y="486" width="212" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-29" target="4PkbjZWsWmm0DBfJ9wQo-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-29" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Cons&lt;/h1&gt;&lt;li data-sourcepos=&quot;43:1-43:107&quot;&gt;&lt;strong&gt;Third-party library:&lt;/strong&gt; Relies on ongoing maintenance by the community, not officially supported by AWS.&lt;/li&gt;&lt;li data-sourcepos=&quot;44:1-45:0&quot;&gt;&lt;strong&gt;Potential overhead:&lt;/strong&gt; Might introduce some overhead compared to the official SDK.&lt;/li&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="1832" y="607" width="212" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-30" target="dohqmcMWc8sms09kIWmR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-30" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Pros&lt;/h1&gt;&lt;li data-sourcepos=&quot;37:1-37:100&quot;&gt;&lt;strong&gt;Simplified development:&lt;/strong&gt; Object-oriented access and schema definitions make development easier.&lt;/li&gt;&lt;li data-sourcepos=&quot;39:1-40:0&quot;&gt;&lt;strong&gt;Active community:&lt;/strong&gt; Larger community compared to nestjs-dynamoose. - 100K downloads&lt;/li&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="1768" y="381" width="212" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-49" value="aws-sdk" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="492" y="266" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-50" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-6" target="4PkbjZWsWmm0DBfJ9wQo-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1101" y="90" as="sourcePoint" />
+            <mxPoint x="953" y="133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-52" value="nest-aws-sdk" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="85" y="174" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-53" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="dohqmcMWc8sms09kIWmR-6" target="4PkbjZWsWmm0DBfJ9wQo-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1101" y="90" as="sourcePoint" />
+            <mxPoint x="501.00000000000045" y="207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-63" value="&lt;a href=&quot;https://socket.dev/npm/package/nest-aws-sdk&quot;&gt;Socket.dev&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="160" y="290" width="94" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-64" value="&lt;a href=&quot;https://www.npmjs.com/package/nest-aws-sdk&quot;&gt;npmJS.com&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="131" y="257" width="98" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-65" target="4PkbjZWsWmm0DBfJ9wQo-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-65" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Pros&lt;/h1&gt;&lt;li data-sourcepos=&quot;18:5-18:128&quot;&gt;&lt;b&gt;Simplified Development&lt;/b&gt;: Offers features like dependency injection to easily manage AWS clients within your NestJS project.&lt;/li&gt;&lt;li data-sourcepos=&quot;19:5-19:75&quot;&gt;&lt;b&gt;Cleaner Integration&lt;/b&gt;: Aligns with NestJS coding style and conventions.&lt;/li&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="33" y="449" width="212" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-66" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Cons&lt;/h1&gt;&lt;div&gt;15k weekly downloads&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;li data-sourcepos=&quot;21:5-21:86&quot;&gt;&lt;b&gt;Relies on &lt;code class=&quot;&quot;&gt;aws-sdk&lt;/code&gt;&lt;/b&gt;: Any limitations or learning curve of &lt;code class=&quot;&quot;&gt;aws-sdk&lt;/code&gt; still apply.&lt;/li&gt;&lt;li data-sourcepos=&quot;22:5-22:107&quot;&gt;&lt;b&gt;Third-party Library&lt;/b&gt;: Relies on ongoing maintenance by the community, not officially supported by AWS.&lt;/li&gt;&lt;li data-sourcepos=&quot;23:5-25:0&quot;&gt;&lt;b&gt;Potential Overhead&lt;/b&gt;: Might introduce some overhead compared to using &lt;code class=&quot;&quot;&gt;aws-sdk&lt;/code&gt; directly.&lt;/li&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="93" y="758" width="212" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-67" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-52" target="4PkbjZWsWmm0DBfJ9wQo-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="884" y="330" as="sourcePoint" />
+            <mxPoint x="922" y="403" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-68" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-52" target="4PkbjZWsWmm0DBfJ9wQo-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="884" y="330" as="sourcePoint" />
+            <mxPoint x="920" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-66" target="4PkbjZWsWmm0DBfJ9wQo-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="821" y="861" as="sourcePoint" />
+            <mxPoint x="761" y="791" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-70" value="&lt;a href=&quot;https://socket.dev/npm/package/aws-sdk&quot;&gt;Socket.dev&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="479" y="351" width="94" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-71" value="&lt;a href=&quot;https://www.npmjs.com/package/aws-sdk&quot;&gt;npmJS.com&lt;/a&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" collapsed="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="445" y="320" width="98" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-72" target="4PkbjZWsWmm0DBfJ9wQo-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-72" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Pros&lt;/h1&gt;&lt;p&gt;Best supported and maintained&lt;/p&gt;&lt;p&gt;More than 9 million weekly downloads&lt;/p&gt;&lt;li data-sourcepos=&quot;7:1-7:104&quot;&gt;&lt;strong&gt;Fine-grained control:&lt;/strong&gt; You have complete control over the data you send and receive from DynamoDB.&lt;/li&gt;&lt;li data-sourcepos=&quot;8:1-8:81&quot;&gt;&lt;strong&gt;Flexibility:&lt;/strong&gt; Works with any JavaScript project, not limited by a framework.&lt;/li&gt;&lt;li data-sourcepos=&quot;9:1-10:0&quot;&gt;&lt;strong&gt;Official AWS support:&lt;/strong&gt; Benefits from ongoing development and support by AWS.&lt;/li&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="378" y="516" width="212" height="239" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-73" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Cons&lt;/h1&gt;&lt;li data-sourcepos=&quot;11:5-11:108&quot;&gt;Steeper Learning Curve: Requires a deeper understanding of the low-level API for each service you use.&lt;/li&gt;&lt;br/&gt;&lt;li data-sourcepos=&quot;12:5-13:0&quot;&gt;More Code Required: Can be more verbose to write compared to higher-level abstractions.&lt;/li&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="425" y="831.5" width="212" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-74" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-49" target="4PkbjZWsWmm0DBfJ9wQo-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="884" y="330" as="sourcePoint" />
+            <mxPoint x="289" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-75" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-49" target="4PkbjZWsWmm0DBfJ9wQo-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="884" y="330" as="sourcePoint" />
+            <mxPoint x="289" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-73" target="4PkbjZWsWmm0DBfJ9wQo-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="821" y="861" as="sourcePoint" />
+            <mxPoint x="33" y="688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-81" value="third-party library that builds upon &lt;code class=&quot;&quot;&gt;aws-sdk&lt;/code&gt;. It provides a thin wrapper around &lt;code class=&quot;&quot;&gt;aws-sdk&lt;/code&gt; specifically designed for use with NestJS." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="82" y="361" width="242" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-82" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-52" target="4PkbjZWsWmm0DBfJ9wQo-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="884" y="330" as="sourcePoint" />
+            <mxPoint x="1047" y="498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-83" value="&lt;strong&gt;Official AWS SDK for JavaScript:&lt;/strong&gt; This is the core library provided by Amazon Web Services (AWS) to interact with various AWS services, including DynamoDB. It offers a low-level API, giving you fine-grained control over the communication with AWS." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="dohqmcMWc8sms09kIWmR-1">
+          <mxGeometry x="416" y="453.5" width="293" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4PkbjZWsWmm0DBfJ9wQo-84" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dohqmcMWc8sms09kIWmR-1" source="4PkbjZWsWmm0DBfJ9wQo-49" target="4PkbjZWsWmm0DBfJ9wQo-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="884" y="330" as="sourcePoint" />
+            <mxPoint x="269" y="394" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
